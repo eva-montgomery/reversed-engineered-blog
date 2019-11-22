@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    /*background-image: url(../images/alberta-amazing-attraction-banff-417074.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    /* aplpha channel controls how opaque the color is */
+   /* color: rgba(0, 0, 0, 0.4);
+    /*background: red*/
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header {
+    height: 75px;
+    background-color: #333;
+    margin-bottom: 12px;
+    background-image: url(../images/neon-signage-2235130.jpg);
+    background-position: left;
+    background-repeat: no-repeat;  
+    background-size: 155px;
+}
+
+p {
+    color: #5d5d5d;
+}
+table {
+    /* Bruce Lee says: "Be like water" In CSS: this means, be as wide as your container.*/
+    width: 100%;
+    border-spacing: 0;
+
+}
+th {
+    background-color: #4285F4;
+    color: #fff
+}
+
+th, td {
+    padding: 8px;
+}
+
+.column-1 {
+    text-align: left;
+}
+
+.column-2 {
+    text-align: right;
+}
+
+/* :hover is the "pseudo-class" that refers to an element 
+when a mouse pointer is overlapping it. */
+/*tr:hover {
+    background-color: #f9f9f9
+}*/
+
+/* This is the descendant selector.
+It refers to an element anywhere inside another element. */
+
+tr:hover td {
+    /*color: white;*/
+   /*font-size: 28px;*/
+   /*font-size: 2.2em*/
+   /* multiply by 2 */
+}
+
+/* To apply styles to more than one selector, list the selectors
+out separated by commas. */
+.odd-row, tr:hover {
+    background-color: #f9f9f9;
+}
+
+.sidebar-heading, {
+    text-transform: uppercase;
+}
+
+
+a {
+   /*   
+    display: block;
+
+   this makes the anchor tag take up as much space as 
+   possible 
+   */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+/* more pseudo-classes */ 
+
+ul a:link,
+ul a:visited {
+    text-transform: uppercase;
+    color: #57ad68;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+li {
+    /* 1st value is top/bottom, 2nd is left/right */
+    padding: 8px 0;
+
+    /* Different values for four directions
+    padding: 10px 0 2px 3px; */
+
+    /* padding: 10px;
+    Use 10px for all directions */
+
+    /*  margin: 10px; */
+    display: block;
+
+   /* outline: 1px solid red; */
+}
+
+.main-content {
+   width: 66%;
+   outline: 1px solid orange;
+
+}
+
+.sidebar {
+   /* outline: 1px solid red;*/
+    width: 30%; 
+    max-width: 190px;
+}
+
+.categories {
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 300;
+
+}
+
+.categories:hover {
+    background-color: #eaf5ec;
+}
+
+nav {
+    text-align: right;
+    font-size: 20px;
+    color: #fffff;
+    padding: 24px 12px;
+    display: block;
+}
+
+.main-navigation ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 9999999999999999999999;
+    list-style: none;
+    float: right;
+}
